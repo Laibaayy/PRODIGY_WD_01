@@ -1,0 +1,115 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    transition: background-color 1.3s;
+}
+
+.scrolled {
+    background-color: #633333 !important;
+}
+
+#home {
+    background-image: url("https://images.unsplash.com/photo-1505935428862-770b6f24f629?q=80&w=1467&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -2px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    padding-top: 60px;
+
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+    height: 4rem;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0;
+    font-size: 21px;
+    margin-top: 6px;
+}
+
+.nav-link {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #575757;
+    color: #c7b3b3;
+    font-weight: 700;
+}
+
+
+
+section {
+    padding: 50px;
+    height: 100vh;
+
+}
+
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 3;
+    font-size: 50px;
+    border: 2px solid white;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+#myBtn:hover {
+    transition: 0.3s;
+    opacity: 0.8;
+}
+
+.btnn {
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 8px;
+    color: black;
+}
+
+.btnn:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.fooddata {
+    padding: 1rem;
+    border: 1px solid black;
+    width: 30rem;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    border-radius: 19px;
+    margin-top: 2rem;
+}
